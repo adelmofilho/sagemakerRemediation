@@ -1,0 +1,33 @@
+{
+    "Parameters": {
+        "ProjectName": "mlworks-sagemaker-remediation",
+        "LambdaRuntime": "python3.8",
+        "LambdaTimeout": "45",
+        "LambdaMemory": "128",
+        "EmailAccount": "EmailAccount",
+        "BucketName": {
+            "Fn::GetArtifactAtt": [
+                "app",
+                "BucketName"
+            ]
+        },
+        "ObjectKey": {
+            "Fn::GetArtifactAtt": [
+                "app",
+                "ObjectKey"
+            ]
+        },
+        "LayerBucketName": {
+            "Fn::GetArtifactAtt": [
+                "layer",
+                "BucketName"
+            ]
+        },
+        "LayerObjectKey": {
+            "Fn::GetArtifactAtt": [
+                "layer",
+                "ObjectKey"
+            ]
+        }
+    }
+}
