@@ -1,5 +1,5 @@
 # sagemakerRemediation
-Scheduled lambda function to delete Sagemaker resources actives but unused
+ Scheduled lambda function to delete active Sagemaker resources
 
 
 ## Background
