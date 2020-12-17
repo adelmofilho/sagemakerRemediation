@@ -8,7 +8,7 @@ Every day I forget many Sagemaker endpoints and notebook instances, unused at my
 
 Every day I cry when seeing my billing report.
 
-But tomorrow is going not to be another crying day.
+But tomorrow will not to be another crying day.
 
 ## Description
 
