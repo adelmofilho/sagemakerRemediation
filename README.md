@@ -12,7 +12,7 @@ But tomorrow will not to be another crying day.
 
 ## Description
 
-This project creates the infrastructure and application of an AWS Lambda function runs every hour to detect and delete Sagemaker endpoints and notebook instances in Service.
+This project creates the infrastructure and application of an AWS Lambda function that runs every hour to detect and delete Sagemaker endpoints and notebook instances in Service.
 
 Lambda function runs are sent by AWS SNS to a personal email account.
 
