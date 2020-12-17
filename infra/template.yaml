@@ -108,7 +108,7 @@ Resources:
     Properties: 
       EventBusName: default
       Name: !Ref ProjectName
-      ScheduleExpression: "cron(56 23 * * ? *)"
+      ScheduleExpression: "rate(1 hours)"
       State: ENABLED
       Targets: 
         - 
