@@ -108,7 +108,7 @@ Resources:
     Properties: 
       EventBusName: default
       Name: !Ref ProjectName
-      ScheduleExpression: "rate(1 hour)"
+      ScheduleExpression: "rate(4 hours)"
       State: ENABLED
       Targets: 
         - 
